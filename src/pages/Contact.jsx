@@ -23,7 +23,7 @@ const Contact = () => {
       <h1>Contact</h1>
       <div className="contact-container">
         <div className="contact-method">
-          <div>
+          <div className="address-block">
             <p>
               For more info and bookings, you can contact us by email <br />
               or with the booking platforms at the bottom of the page.
@@ -34,7 +34,7 @@ const Contact = () => {
               mailto="mailto:arqjgsv@gmail.com"
             />
           </div>
-          <div>
+          <div className="address-block">
             <p>
               Cerrada de Reforma 119, 
               <br />

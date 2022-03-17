@@ -25,7 +25,13 @@ const CoverHeader = () => {
 
   return (
     <div onScroll={(e) => scrollFunction(e)} className="garden-container">
-      <video className="video-intro" src={videoCover} autoPlay loop muted />
+      <video
+        className="video-intro video-for-mobiles"
+        src={videoCover}
+        autoPlay
+        loop
+        muted
+      />
       <div className="header-container">
         <div className="header-text">
           <h1>Garden House</h1>
