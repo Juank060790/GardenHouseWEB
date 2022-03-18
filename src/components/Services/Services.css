@@ -51,3 +51,18 @@ h1 {
 .services-container > p {
   text-align: justify;
 }
+
+@media screen and (max-width: 768px) {
+  .serv-container-mobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .styling {
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+  }
+}

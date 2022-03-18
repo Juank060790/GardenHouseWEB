@@ -19,7 +19,7 @@ video {
 }
 
 .garden-container > h1 {
-  color: #fff;
+  color: #ffffff;
   font-size: 100px;
   margin-top: -100px;
 }
@@ -87,7 +87,7 @@ video {
   }
 
   .btn {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -115,5 +115,19 @@ video {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .video-icon {
+    width: 50px;
+    display: initial;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px 0 0 20px;
+  }
+
+  .video-icon:hover {
+    transform: ease-in-out 0.2s;
+    transform: scale(1.2);
   }
 }

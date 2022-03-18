@@ -9,6 +9,10 @@
   z-index: 999;
 }
 
+.navbar-logo > img {
+  height: 80px;
+}
+
 .navbar-container-gh {
   display: flex;
   justify-content: flex-start;
@@ -121,5 +125,10 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+
+  .navbar-logo > img {
+    width: 90px;
+    height: 60px;
   }
 }

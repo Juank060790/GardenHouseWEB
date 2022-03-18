@@ -25,7 +25,7 @@ function Navbar() {
     <nav className="navbar-gh">
       <div className="navbar-container-gh">
         <Link to="/" className="navbar-logo">
-          <img src={logo} alt="logo" height={80} />
+          <img src={logo} alt="logo" />
         </Link>
 
         <ul className="nav-menu active">
