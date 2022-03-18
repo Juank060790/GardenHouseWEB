@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Rooms from "./pages/Rooms";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
+import Notfound from "./pages/NotFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" component={Notfound} />
       </Routes>
       <Footer />
     </>

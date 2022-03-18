@@ -56,3 +56,108 @@ a {
     margin: 10px;
   }
 }
+
+/* Wave section home page */
+
+section {
+  position: sticky;
+}
+
+.bubble::after {
+  content: "";
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  background-color: #3a710015;
+  height: 85%;
+}
+
+/* Waves Room page */
+
+.custom-shape-divider-top-1647620618 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1647620618 svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 187px;
+}
+
+.custom-shape-divider-top-1647620618 .shape-fill {
+  fill: #3a710015;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-shape-divider-top-1647620618 svg {
+    width: calc(230% + 1.3px);
+    height: 455px;
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1647620618 svg {
+    width: calc(124% + 1.3px);
+    height: 119px;
+  }
+}
+
+.bottom-shape {
+  z-index: -1;
+}
+.custom-shape-divider-bottom-1647626508 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647626508 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 140px;
+}
+
+.custom-shape-divider-bottom-1647626508 .shape-fill {
+  fill: #3a710015;
+}
+
+/* Waves contact */
+
+.custom-shape-divider-bottom-1647627251 {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647627251 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 5.3px);
+  height: 136px;
+}
+
+.custom-shape-divider-bottom-1647627251 .shape-fill {
+  fill: #41750515;
+}

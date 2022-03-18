@@ -2,6 +2,7 @@ import React from "react";
 import "./Barrio.css";
 
 import PropTypes from "prop-types";
+import Reviews from "../Reviews/Reviews";
 
 const YoutubeEmbed = ({ embedId }) => (
   <div className="video-responsive">
@@ -24,12 +25,16 @@ YoutubeEmbed.propTypes = {
 const Barrio = () => {
   return (
     <div className="barrio">
-      <h1>El Barrio</h1>
-      <div className="barrio-container">
-        <YoutubeEmbed embedId="pwEpQlyHJU8" />
+      <Reviews />
 
-        <YoutubeEmbed embedId="29wWByUw-1g" />
-      </div>
+      <section className="bubble">
+        <h1>El Barrio</h1>
+        <div className="barrio-container">
+          <YoutubeEmbed embedId="pwEpQlyHJU8" />
+
+          <YoutubeEmbed embedId="29wWByUw-1g" />
+        </div>
+      </section>
     </div>
   );
 };

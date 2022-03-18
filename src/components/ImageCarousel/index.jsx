@@ -6,7 +6,7 @@ const ImageCarousel = (roomsData) => {
     <>
       <Carousel touch={true} interval={null}>
         {roomsData.images.images.map((image) => (
-          <Carousel.Item key={roomsData.id}>
+          <Carousel.Item key={image}>
             <img
               className="d-block h-100 w-100"
               src={image}

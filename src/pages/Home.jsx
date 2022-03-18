@@ -9,7 +9,9 @@ function Home() {
     <>
       <CoverHeader />
       <Services />
-      <Barrio />
+      <section className="bubble">
+        <Barrio />
+      </section>
     </>
   );
 }

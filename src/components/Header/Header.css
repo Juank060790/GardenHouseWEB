@@ -111,6 +111,9 @@ video {
     display: none;
   }
   .garden-container {
-    background-color: black;
+    background: url(../../assets/garden_cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
