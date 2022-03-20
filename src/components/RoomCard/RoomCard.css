@@ -63,3 +63,14 @@
   padding: 1.2em;
   pointer-events: fill;
 }
+
+.room-icons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.room-icon {
+  margin: 10px;
+}
