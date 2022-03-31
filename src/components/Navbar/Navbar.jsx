@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../assets/logogh.jpg";
+import logo from "../../assets/gardenhouseLogo.png";
 
 function Navbar() {
   // eslint-disable-next-line

@@ -149,7 +149,7 @@ a:hover {
     transform: scale(0.6);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .div1 {
     background-position-x: 10rem;
   }

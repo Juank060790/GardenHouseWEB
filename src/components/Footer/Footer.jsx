@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import "./Footer.css";
-import logoGH from "../../assets/logogh.jpg";
+import logoGH from "../../assets/gardenhouseLogo.png";
 import tripAdvisor from "../../assets/tripAdvisor.png";
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <img src={logoGH} alt="logo" height={80} />
+          <img src={logoGH} alt="logo" height={50} />
         </div>
 
         <div className="footer-icons">
