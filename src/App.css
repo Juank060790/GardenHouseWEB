@@ -114,8 +114,13 @@ section {
   }
 }
 
+.mailto {
+  width: -webkit-fill-available;
+}
+
 .bottom-shape {
   z-index: -1;
+  margin-top: 200px;
 }
 .custom-shape-divider-bottom-1647626508 {
   position: absolute;
@@ -160,4 +165,37 @@ section {
 
 .custom-shape-divider-bottom-1647627251 .shape-fill {
   fill: #41750515;
+}
+
+/* Resta Recomendaciones */
+
+.resta-container {
+  margin: 5%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.recomendaciones-block > h3 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+.recomendaciones-block > h5 {
+  text-decoration: underline;
+  font-weight: 200;
+  font-size: 35px;
+  text-align: center;
+}
+.recomendaciones-block > p {
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-recom {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
 }

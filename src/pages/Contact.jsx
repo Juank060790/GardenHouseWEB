@@ -2,9 +2,10 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import GoogleMap from "../components/GoogleMap/GoogleMap";
 
-const ButtonMailto = ({ mailto, label }) => {
+const ButtonMailto = ({ mailto, label, classNameButton }) => {
   return (
     <Button
+      className={classNameButton}
       variant="success"
       to="#"
       onClick={(e) => {
@@ -30,6 +31,7 @@ const Contact = () => {
             </p>
             <br />
             <ButtonMailto
+              classNameButton="mailto"
               label="Send an email"
               mailto="mailto:arqjgsv@gmail.com"
             />
