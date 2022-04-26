@@ -86,4 +86,15 @@
 
 .icon-recom {
   width: 30px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.info-gif {
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.info-gif:hover {
+  transform: scale(1.2);
 }
