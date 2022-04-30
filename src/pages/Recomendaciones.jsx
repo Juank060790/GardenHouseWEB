@@ -4,7 +4,6 @@ import tienda from "../assets/tienda.png";
 import laundry from "../assets/Laundry.jpeg";
 import pharmacy from "../assets/Farmacia_Guadalajara.png";
 import bazarSabado from "../assets/venadoBlanco.png";
-import teatroHelenico from "../assets/venadoBlanco.png";
 
 const Recomendaciones = () => {
   return (

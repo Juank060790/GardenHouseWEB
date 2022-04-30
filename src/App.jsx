@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
 import Notfound from "./pages/NotFound";
 import Recomendaciones from "./pages/Recomendaciones";
+import Bienvenida from "./components/Bienvenida/Bienvenida";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/recomendaciones" element={<Recomendaciones />} />
+        <Route path="/bienvenida" element={<Bienvenida />} />
         <Route component={Notfound} />
       </Routes>
       <Footer />
