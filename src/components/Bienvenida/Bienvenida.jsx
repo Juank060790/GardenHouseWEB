@@ -25,6 +25,7 @@ const Bienvenida = () => {
           <br />
           <br />
           La dirección exacta de la puedes checar en este link:
+          <br />
           <a
             href="https://goo.gl/maps/v8opwPpau772"
             target="_blank"
@@ -32,6 +33,7 @@ const Bienvenida = () => {
           >
             https://goo.gl/maps/v8opwPpau772
           </a>
+          <br />
           Cerrada Reforma 119, Campestre, 01040 Ciudad de México, CDMX
           <br />
           Cualquier cosa que necesites, por favor no dudes en contactarnos.
