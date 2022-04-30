@@ -3,14 +3,14 @@ import "./contactCard.css";
 
 const Contactcard = () => {
   return (
-    <div class="container contact-cards">
-      <div class="contact-card-row">
-        <div class="col-lg-12 ">
-          <div class="card full-card ">
-            <div class="">
-              <div class="card-body col-lg-12">
+    <div className="container contact-cards">
+      <div className="contact-card-row">
+        <div className=" ">
+          <div className="card-contact full-card ">
+            <div className="">
+              <div className="card-body ">
                 <h4>Carlos Solorzano</h4>
-                <div class=" mt-4 mb-3">
+                <div className=" mt-4 mb-3">
                   <a href="tel:+525563325887">
                     <button
                       type="button"
@@ -26,13 +26,13 @@ const Contactcard = () => {
           </div>
         </div>
       </div>
-      <div class="contact-card-row">
-        <div class="col-lg-12 ">
-          <div class="card full-card ">
-            <div class="">
-              <div class="card-body col-lg-12">
+      <div className="contact-card-row">
+        <div className=" ">
+          <div className="card-contact full-card ">
+            <div className="">
+              <div className="card-body ">
                 <h4>Juan Gabriel Solorzano</h4>
-                <div class=" mt-4 mb-3">
+                <div className=" mt-4 mb-3">
                   <a href="tel:+525552483330">
                     <button
                       type="button"
@@ -48,13 +48,13 @@ const Contactcard = () => {
           </div>
         </div>
       </div>
-      <div class="contact-card-row">
-        <div class="col-lg-12 ">
-          <div class="card full-card ">
-            <div class="">
-              <div class="card-body col-lg-12">
+      <div className="contact-card-row mb-5">
+        <div>
+          <div className="card-contact full-card ">
+            <div className="">
+              <div className="card-body ">
                 <h4>Jessica Jimenez</h4>
-                <div class=" mt-4 mb-3">
+                <div className=" mt-4 mb-3">
                   <a href="tel:+525532131438">
                     <button
                       type="button"

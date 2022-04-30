@@ -8,21 +8,25 @@
   border: none;
   color: #43d187;
 }
-.card {
-  border: none;
+.card-contact {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
   border-radius: 3px;
-  background-color: #ffffff;
-}
-
-.contact-cards {
-  display: flex;
-  flex-wrap: wrap;
+  box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%),
+    0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
+  transition: all ease 1000ms;
 }
 
 .btn-border {
-  padding: 5px;
+  padding: 10px;
   border: #43d187 solid 1px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .btn-border:hover {
@@ -42,9 +46,9 @@
 .full-card {
   background: #01482713; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
+    to bottom,
     #01482713,
-    #ece9e6
+    #ffffff
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #01482713, #ece9e6);
+  background: linear-gradient(to bottom, #01482713, #ffffff);
 }

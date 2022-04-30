@@ -1,0 +1,9 @@
+.text-bienvenido {
+  padding-top: 10px;
+  text-align: center;
+  max-width: 100%;
+  margin: 10px;
+}
+.text-bienvenido a {
+  word-break: break-all;
+}

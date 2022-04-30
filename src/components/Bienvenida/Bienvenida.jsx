@@ -4,7 +4,7 @@ import "./Bienvenida.css";
 const Bienvenida = () => {
   return (
     <div className="recomendaciones-block">
-      <div className="text-recom">
+      <div className="text-bienvenido ">
         <h3>Bienvenid@ a Garden House</h3>
         <p>
           Soy Juan Gabriel Solorzano tu Super Host para apoyarte en tu estancia
