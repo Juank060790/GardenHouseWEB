@@ -12,6 +12,7 @@ export const RoomsData = [
     title: "1A - Suite Monasterio San Angel (1BR/1BA double)",
     airbnLink: "http://abnb.me/EVmg/rIbE2ohtVB",
     bookingLink: "http://www.booking.com/Share-6t4qBX",
+    youtubeLink: "https://www.youtube.com/watch?v=7JqjTxHuhBU",
     roomType: "Entire home/apt",
   },
   {
@@ -27,6 +28,7 @@ export const RoomsData = [
     title: "1B - Suite Rio San Angel (1BR/1BA Double)",
     airbnLink: "http://abnb.me/EVmg/2hoxmTitVB",
     bookingLink: "http://www.booking.com/Share-w58mNz",
+    youtubeLink: "https://www.youtube.com/watch?v=4mrDiFaEi_I",
     roomType: "Entire home/apt",
   },
   {
@@ -42,6 +44,7 @@ export const RoomsData = [
     title: "1C - Suite Flores de San Angel - 1BR/1BA Double",
     airbnLink: "http://abnb.me/EVmg/gEXdqPltVB",
     bookingLink: "http://www.booking.com/Share-83qVSU",
+    youtubeLink: "https://www.youtube.com/watch?v=f2-gryzCorw",
     roomType: "Entire home/apt",
   },
   {
@@ -56,6 +59,7 @@ export const RoomsData = [
     ],
     title: "2B - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "http://abnb.me/EVmg/miXhfKDFUB",
+    youtubeLink: "https://www.youtube.com/watch?v=zg5_hzNgKas",
     bookingLink: "http://www.booking.com/Share-ol8mRh",
     roomType: "Entire home/apt",
   },
@@ -72,6 +76,7 @@ export const RoomsData = [
     title: "2C - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "http://abnb.me/EVmg/58vJbYyoVB",
     bookingLink: "http://www.booking.com/Share-O1G8tV",
+    youtubeLink: "https://www.youtube.com/watch?v=aBY-WS8yJzU",
     roomType: "Entire home/apt",
   },
   {
@@ -86,6 +91,7 @@ export const RoomsData = [
     ],
     title: "3B - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "https://www.airbnb.com/rooms/20555102",
+    youtubeLink: "https://www.youtube.com/watch?v=quZ7koGt7XA",
     roomType: "Entire home/apt",
   },
   {
@@ -101,6 +107,7 @@ export const RoomsData = [
     title: "3C - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "https://abnb.me/YVWOg4j5CK",
     bookingLink: "http://www.booking.com/Share-oz6rUo",
+    youtubeLink: "https://www.youtube.com/watch?v=33GgotSiDuw",
     roomType: "Entire home/apt",
   },
   {
@@ -115,6 +122,7 @@ export const RoomsData = [
     title: "4A - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "https://www.airbnb.com/rooms/25839052",
     bookingLink: "http://www.booking.com/Share-cavjMy",
+    youtubeLink: "https://www.youtube.com/watch?v=r_xs3gLEQGw",
     roomType: "Entire home/apt",
   },
   {
@@ -129,6 +137,7 @@ export const RoomsData = [
     title: "4B - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "http://abnb.me/EVmg/IEprFSjpVB",
     bookingLink: "http://www.booking.com/Share-sQIGXq",
+    youtubeLink: "https://www.youtube.com/watch?v=UX6KXL4L-9g",
     roomType: "Entire home/apt",
   },
   {
@@ -144,6 +153,7 @@ export const RoomsData = [
     title: "5A - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "http://abnb.me/EVmg/oRIMarwtVB",
     bookingLink: "http://www.booking.com/Share-j1C5RQD",
+    youtubeLink: "https://www.youtube.com/watch?v=Tq9IFsH1Th8",
     roomType: "Entire home/apt",
   },
   {
@@ -159,6 +169,7 @@ export const RoomsData = [
     title: "5B - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "http://abnb.me/EVmg/2kUiB6xtVB",
     bookingLink: "http://www.booking.com/Share-uwpaWr",
+    youtubeLink: "https://youtu.be/keA-mJXyGbA",
     roomType: "Entire home/apt",
   },
   {
@@ -172,6 +183,7 @@ export const RoomsData = [
     ],
     title: "Studi-Bed 1 - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "https://www.airbnb.com/rooms/577056908603484824",
+    youtubeLink: "https://www.youtube.com/watch?v=3qQx5ld-HyA",
     roomType: "Entire home/apt",
   },
   {
@@ -185,6 +197,7 @@ export const RoomsData = [
     ],
     title: "Sincerly-Bed 2 - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "https://www.airbnb.com/rooms/577075807843865828",
+    youtubeLink: "https://www.youtube.com/watch?v=unwzebirGss",
     roomType: "Entire home/apt",
   },
   {
@@ -198,6 +211,7 @@ export const RoomsData = [
     ],
     title: "Studi-Bed 3 - Suite Casona San Angel - 1BR/1BA Double",
     airbnLink: "https://www.airbnb.com/rooms/577084687644662821",
+    youtubeLink: "https://www.youtube.com/watch?v=CewkYzknRbU",
     roomType: "Entire home/apt",
   },
 ];
