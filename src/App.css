@@ -44,6 +44,7 @@ a {
   align-items: center;
   justify-content: center;
   margin: 5%;
+  visibility: visible;
 }
 
 @media screen and (max-width: 768px) {
@@ -198,4 +199,8 @@ section {
   max-width: 60%;
   margin: auto;
   text-align: center;
+}
+
+.hide-cards {
+  visibility: hidden;
 }

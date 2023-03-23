@@ -7,6 +7,7 @@ const Rooms = () => {
   const [rooms, setRooms] = React.useState([]);
   // eslint-disable-next-line
   const [loading, setLoading] = React.useState(true);
+  const [hideCards, setHideCards] = React.useState(true);
 
   useEffect(() => {
     if (RoomsData) {
@@ -33,9 +34,16 @@ const Rooms = () => {
       </div>
       <h1>Rooms</h1>
 
-      <div className="rooms-container">
+      <div className={`rooms-container ${!hideCards && "hide-cards"}`}>
         {rooms ? (
-          RoomsData.map((room) => <RoomCard key={room.id} {...room} />)
+          RoomsData.map((room) => (
+            <RoomCard
+              key={room.id}
+              roomsData={{ ...room }}
+              setHideCards={setHideCards}
+              hideCards={hideCards}
+            />
+          ))
         ) : (
           <Spinner animation="grow" variant="success" />
         )}
