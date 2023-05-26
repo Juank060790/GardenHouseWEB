@@ -204,3 +204,8 @@ section {
 .hide-cards {
   visibility: hidden;
 }
+
+.numbers-container {
+  display: flex;
+  flex-direction: column;
+}

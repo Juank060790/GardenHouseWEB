@@ -45,7 +45,10 @@ const Contact = () => {
                01040 México
               <br />
               You can also book us by phone at: <br />
-              <span>+52 1 5552483330 </span>
+              <span className="numbers-container">
+                <a href="tel: +52 5532131438">+52 5532131438 </a>
+                <a href="tel:+52 5552483330">+52 5552483330 </a>
+              </span>
             </p>
           </div>
         </div>
